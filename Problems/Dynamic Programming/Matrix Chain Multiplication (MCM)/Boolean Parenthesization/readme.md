@@ -24,7 +24,7 @@ ___
 - Fill it with -1. 
 - If value is not -1, return the value.
 - `if(dp[i][j][isTrue] != -1)` return `dp[i][j][isTrue]` 
-- Lastly, store value of ways, i.e. `dp[i][j][isTrue] = ways` Refer [images](https://github.com/AKR-2803/DSA-Declassified/edit/main/Problems/Dynamic%20Programming/Matrix%20Chain%20Multiplication%20(MCM)/Boolean%20Parenthesization/readme.md#reference-images)
+- Lastly, store value of ways, i.e. `dp[i][j][isTrue] = ways` Refer [images](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming/Matrix%20Chain%20Multiplication%20(MCM)/Boolean%20Parenthesization#reference-images)
 ___
 ### Reference Images
 
