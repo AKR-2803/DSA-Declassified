@@ -1,6 +1,5 @@
 
-## Boolean Parenthesization
-##### [Problem Link](https://www.geeksforgeeks.org/problems/boolean-parenthesization5610/1)
+## Boolean Parenthesization [[Link](https://www.geeksforgeeks.org/problems/boolean-parenthesization5610/1)]
 
 ### Approach
 ___
@@ -25,4 +24,14 @@ ___
 - Fill it with -1. 
 - If value is not -1, return the value.
 - `if(dp[i][j][isTrue] != -1)` return `dp[i][j][isTrue]` 
-- Lastly, store value of ways, i.e. `dp[i][j][isTrue] = ways` Refer image `boolean_parenthesization_4.png`
+- Lastly, store value of ways, i.e. `dp[i][j][isTrue] = ways` Refer [images](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming/Matrix%20Chain%20Multiplication%20(MCM)/Boolean%20Parenthesization#reference-images)
+___
+### Reference Images
+
+| 1 | 2 |
+| ------------------ | ------------------ |
+| <img src="./images/boolean_parenthesization_1.jpg" height="400" width="350" alt="Screenshot"/>  | <img src="./images/boolean_parenthesization_2.jpg" height="400" width="350" alt="Screenshot"/>  |
+
+| 3 | 4 |
+| ------------------ | ------------------ |
+| <img src="./images/boolean_parenthesization_3.jpg" height="400" width="350" alt="Screenshot"/>  | <img src="./images/boolean_parenthesization_4.png" height="400" width="350" alt="Screenshot"/>  |
