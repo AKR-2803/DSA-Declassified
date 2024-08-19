@@ -39,3 +39,12 @@ ___
 - After the `for` loop, store the result in the map `mp.put(mapKey, flag);`
 
 - Finally, return the `flag` as before.
+___
+## Reference [Images](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming/Matrix%20Chain%20Multiplication%20(MCM)/Scrambled%20String/images)
+| Condition-I | 
+| ------------------ |
+| <img src="./images/Scrambled_Condition_1.png" height="400" width="900" alt="Screenshot"/> |
+
+| Condition-II | 
+| ------------------ |
+| <img src="./images/Scrambled_Condition_2.png" height="400" width="900" alt="Screenshot"/> |
