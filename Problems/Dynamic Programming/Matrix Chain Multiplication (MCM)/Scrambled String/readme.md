@@ -43,8 +43,12 @@ ___
 ## Reference [Images](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming/Matrix%20Chain%20Multiplication%20(MCM)/Scrambled%20String/images)
 | Condition-I | 
 | ------------------ |
-| <img src="./images/Scrambled_Condition_1.png" height="400" width="900" alt="Screenshot"/> |
+| <img src="./images/Scrambled_Condition_1.png" height="400" width="950" alt="Screenshot"/> |
 
 | Condition-II | 
 | ------------------ |
-| <img src="./images/Scrambled_Condition_2.png" height="400" width="900" alt="Screenshot"/> |
+| <img src="./images/Scrambled_Condition_2.png" height="400" width="950" alt="Screenshot"/> |
+
+| Recursive Tree | Recursive Tree (Detailed) |
+| ------------------ | ------------------ |
+| <img src="./images/Scrambled_Recursive_Tree_2.jpg" height="400" width="465" alt="Screenshot"/> | <img src="./images/Scrambled_Recursive_Tree_1.jpg" height="400" width="465" alt="Screenshot"/> |
