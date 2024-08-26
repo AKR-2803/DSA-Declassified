@@ -10,7 +10,7 @@
     - Take it (Case-1)
     - Leave it (Case-2)
   - Weight of item cannot be accomodated in the bag (Case-3)
-- Refer this example test case in diagram. `[W = 4, val[] = {1,2,3}, wt[] = {4,5,1}]`
+- [Refer this example test case](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01_Knapsack/readme.md#reference-images) in diagram. `[W = 4, val[] = {1,2,3}, wt[] = {4,5,1}]`
 ___
 #### Memoization
 - Take a 2D dp array, where:
