@@ -1,11 +1,11 @@
 
-## 0-1 Knapsack [[Link](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1)]
+# 0-1 Knapsack [[Link](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1)]
 
-### Approach
+## Approach
 #### Recursion
 - **Base Condition** : If the array empties, or remaining capacity is 0 (bag if full), we simply return 0 (as we cannot add an item in the bag in either case).
 - As [Aditya Verma](https://www.patreon.com/adityaVerma) calls it, the choice diagram for framing the solution.
-- We have following possibilities [refer diagram]
+- We have following possibilities [refer diagram](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01_Knapsack/readme.md#reference-images)
   - If weight of item can be accomodated in the bag.
     - Take it (Case-1)
     - Leave it (Case-2)
