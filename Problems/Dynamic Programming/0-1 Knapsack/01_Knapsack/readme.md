@@ -1,40 +1,53 @@
-
-# 0-1 Knapsack [[Link](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1)]
+# Subset Sum [[Link](https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1)]
 
 ## Approach
-#### Recursion
-- **Base Condition** : If the array empties, or remaining capacity is 0 (bag if full), we simply return 0 (as we cannot add an item in the bag in either case).
-- As [Aditya Verma](https://www.patreon.com/adityaVerma) calls it, the choice diagram for framing the solution.
-- We have following possibilities [refer diagram](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01_Knapsack/readme.md#reference-images)
-  - If weight of item can be accomodated in the bag.
-    - Take it (Case-1)
-    - Leave it (Case-2)
-  - Weight of item cannot be accomodated in the bag (Case-3)
-- [Refer this example test case](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01_Knapsack/readme.md#reference-images) in diagram. `[W = 4, val[] = {1,2,3}, wt[] = {4,5,1}]`
+
+### Recursion
+- It is built on top of the logic of [0-1 Knapsack](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01_Knapsack) problem.
+- What does `sum` parameter in recursive function `isSumRec()` signify? It is the remaining sum required to complete, i.e. we are checking from the back of the array and taking elements. [Refer image](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/Subset%20Sum/readme.md#reference-images)
+- So when do we get a subset (which is our motive in the question)? Exactly! when the remaining sum become 0!
+- **Base Condition**: Just think normally, what can these be? We have `arr` and `sum`. 
+  - Either we run out of elements `N == 0` to find a subset that have a sum equal to `sum`. In this case, we did NOT find an answer, return `false`
+  - Either we get the subset we want. In this case `sum == 0` (remember sum == 0 means remaining sum == 0), hence return `true`!
+- The following 3 conditions work same as the [0-1 Knapsack](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01_Knapsack) problem.
+
+- If we can accomodate the element `if(arr[N - 1] <= sum)`, we can either
+  - take it `isSumRec(N - 1, arr, sum - arr[N - 1])`
+  - leave it `isSumRec(N - 1, arr, sum)`
+- Else we cannot accomodate it, we have to leave it `isSumRec(N - 1, arr, sum)`
 ___
-#### Memoization
-- Take a 2D dp array, where:
- - Rows (i) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : `n + 1` (no. of elements + 1, so we can get `n` as an index itself, without getting IndexOutOfBoundsException)
- - Columns (j) : `W + 1` (capacity of the bag + 1)
-- Fill the array with -1. (So we know if a value changes in the array)
-- **Base condition**: Same as recursion.
-- **One more check**: We will check if the current element dp[n][W] has changed, if yes, that means it was calculated and we return it, i.e. `if(dp[n][W] != -1){ return dp[n][W];}` This is why we filled the `dp[][]` array with -1s.
-- Now save the answer in `dp[n][W]` and return it.
+### Memoization
+
+- Very much possible to do, but: In an integer array, you could determine the state after checking for `dp[i][j] != -1`, but with a boolean `dp` array, checking `dp[i][j] != false` doesn't clarify if the `false` value is from the "initialization" or if it was computed during recursion.
+- This ambiguity makes it impossible to ensure whether the `false` is due to the default value of the `dp` array or from a previously calculated subproblem.
+- **Possible solution** is to maintain another integer 2D array to track if a cell was updated via a subproblem or not.
+- However, **tabulation** provides the same time complexity and is more straightforward, so it is preferable to use the tabulation approach directly.
+
+___
+### Tabulation
+- We're solving the subset sum problem using a tabulation approach.
+- Initialize a 2D array `dp` with `(N+1) x (sum+1)`, where `N` is the number of elements in the array and `sum` is the desired sum.
+- We fill the first row of `dp` based on the base cases:
+    - If we have no elements to use, i.e. `n=0`, we can't make any sum except 0, so those cells are marked as `"false"`.
+    - If we want to make a sum of 0, we can do it **without using any element**, so those cells are marked as `"true"`.
+- Then, we iterate over each element in the array and each possible sum from 1 to the desired sum.
+- The following 3 conditions work same as the [0-1 Knapsack](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01_Knapsack) problem.
+
+  - If we can accomodate the element `if(arr[i - 1] <= j)`, we can either
+    - take it `dp[i - 1][j - arr[i - 1]]`
+    - leave it `dp[i - 1][j]`
+  - Else we cannot accomodate it, we have to leave it `dp[i - 1][j]`
+
+- Interpreting the tabulation process on pen and paper:
+  - For each cell `(i, j)`, we consider two options:
+    - If the current element can be included to achieve the current sum `j`, we check if we could achieve the remaining sum `(j - arr[i - 1])` using the previous elements. If so, we mark the current cell as `"true"`.
+    - Otherwise, if the current element cannot be included to achieve the sum `j`, we just copy the value from the previous row.
+- We continue this process until we fill the entire `dp` array.
+- Finally, we return the value stored in the last cell of `dp`, which indicates whether it's possible to achieve the desired sum using `N` elements array, i.e., return `dp[N][sum]`.
 ___
 
-#### Tabulation
-- Take a 2D dp array, where:
- - Rows (i) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : `n+1` (no. of elements + 1)
- - Columns (j) : `W+1` (capacity of the bag + 1)
-- **Initialization**: The first row and column will be all 0s, because:
- - first-row: represents no. of elements in wt array `n = 0`, i.e. it is empty array.
- - first-column: represents capacity of the bag `W = 0`, hence no item can be added, i.e. value is 0.
-- Iterate through each cell of the dp[][] array and use the same logic as before. 
-- Replacements : `n -> i`, `W -> j`
-___
 ### Reference Images
 
-| Choice Diagram and Recursive tree | 
-| ------------------ | 
-| <img src="./images/Knapsack01_1.jpg" height="300" width="400" alt="Screenshot"/>  |
-| <img src="./images/Knapsack01_2.jpg" height="500" width="400" alt="Screenshot"/>  |
+| Recursion (sum is remaining sum)                                              | 
+|-------------------------------------------------------------------------------| 
+| <img src="./images/SubsetSum.jpg" height="300" width="600" alt="Screenshot"/> |
