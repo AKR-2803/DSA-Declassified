@@ -2,10 +2,9 @@
 
 ## Approach
 
-___
 ### Recursion
 - It is built on top of the logic of [0-1 Knapsack](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01_Knapsack) problem.
-- What does `sum` parameter in recursive function `isSumRec()` signify? It is the remaining sum required to complete, i.e. we are checking from the back of the array and taking elements. [[Refer image]()]
+- What does `sum` parameter in recursive function `isSumRec()` signify? It is the remaining sum required to complete, i.e. we are checking from the back of the array and taking elements. [Refer image](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/Subset%20Sum/readme.md#reference-images)
 - So when do we get a subset (which is our motive in the question)? Exactly! when the remaining sum become 0!
 - **Base Condition**: Just think normally, what can these be? We have `arr` and `sum`. 
   - Either we run out of elements `N == 0` to find a subset that have a sum equal to `sum`. In this case, we did NOT find an answer, return `false`
@@ -51,4 +50,4 @@ ___
 
 | Recursion (sum is remaining sum)                                              | 
 |-------------------------------------------------------------------------------| 
-| <img src="./images/SubsetSum.jpg" height="300" width="400" alt="Screenshot"/> |
+| <img src="./images/SubsetSum.jpg" height="300" width="600" alt="Screenshot"/> |
