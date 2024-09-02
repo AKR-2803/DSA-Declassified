@@ -43,7 +43,7 @@ ___
     - If the current element can be included to achieve the current sum `j`, we check if we could achieve the remaining sum `(j - arr[i - 1])` using the previous elements. If so, we mark the current cell as `"true"`.
     - Otherwise, if the current element cannot be included to achieve the sum `j`, we just copy the value from the previous row.
 - We continue this process until we fill the entire `dp` array.
-- Finally, we return the value stored in the last cell of `dp`, which indicates whether it's possible to achieve the desired sum using `N` elements array, i.e., return `dp[N][sum]`.
+- Finally, we return the value stored in the last cell of `dp`, which indicates whether it's possible to achieve the desired `sum` using `N` elements array, i.e., return `dp[N][sum]`.
 ___
 
 ### Reference Images
