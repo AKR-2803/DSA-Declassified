@@ -31,7 +31,7 @@ ___
 - Replacements : `n -> i`, `W -> j`
 ___
 ### Reference Images
-| Choice Diagram and Recursive tree | 
-| ------------------ | 
-| <img src="./images/Knapsack01_1.jpg" height="300" width="400" alt="Screenshot"/>  |
-| <img src="./images/Knapsack01_2.jpg" height="500" width="400" alt="Screenshot"/>  |
+| Choice Diagram and Recursive tree                                                    | 
+|--------------------------------------------------------------------------------------| 
+| <img src="./images/01-01-Knapsack_1.jpg" height="300" width="400" alt="Screenshot"/> |
+| <img src="./images/01-01-Knapsack_2.jpg" height="500" width="400" alt="Screenshot"/> |

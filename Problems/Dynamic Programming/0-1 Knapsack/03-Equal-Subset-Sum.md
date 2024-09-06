@@ -19,4 +19,4 @@ ___
 
 | S - S/2 = S/2                                              | 
 |-------------------------------------------------------------------------------| 
-| <img src="./images/EqualSubsetSum.jpg" height="500" width="600" alt="EqualSubsetSum Image"/> |
+| <img src="./images/03-EqualSubsetSum.jpg" height="500" width="600" alt="EqualSubsetSum Image"/> |

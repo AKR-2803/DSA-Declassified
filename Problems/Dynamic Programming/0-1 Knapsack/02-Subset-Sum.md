@@ -50,4 +50,4 @@ ___
 
 | Recursion (sum is remaining sum)                                              | 
 |-------------------------------------------------------------------------------| 
-| <img src="./images/SubsetSum.jpg" height="300" width="600" alt="Screenshot"/> |
+| <img src="./images/02-SubsetSum.jpg" height="300" width="600" alt="Screenshot"/> |
