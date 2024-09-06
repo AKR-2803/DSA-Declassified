@@ -1,5 +1,4 @@
-# Equal Subset Sum [[Link](https://www.geeksforgeeks.org/problems/subset-sum-problem2014/1)]
-
+# Equal Subset Sum [[Problem](https://www.geeksforgeeks.org/problems/subset-sum-problem2014/1)] [[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/codes/EqualSubsetSum.java)]
 ## Approach
 
 - It is EXACTLY same as [Subset Sum](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming/0-1%20Knapsack/Subset%20Sum#subset-sum-link) problem.

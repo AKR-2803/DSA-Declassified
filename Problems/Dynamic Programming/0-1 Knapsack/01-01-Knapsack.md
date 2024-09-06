@@ -1,4 +1,4 @@
-# 0-1 Knapsack [[Link](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1)]
+# 0-1 Knapsack [[Problem](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/codes/Knapsack01.java)]
 
 ## Approach
 #### Recursion

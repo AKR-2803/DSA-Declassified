@@ -1,5 +1,4 @@
-# Subset Sum [[Link](https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1)]
-
+# Subset Sum [[Problem](https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/codes/SubsetSum.java)]
 ## Approach
 
 ### Recursion
