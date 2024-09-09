@@ -2,13 +2,13 @@
 ## Approach
 
 ### Recursion
-- It is built on top of the logic of [0-1 Knapsack](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01_Knapsack) problem.
-- What does `sum` parameter in recursive function `isSumRec()` signify? It is the remaining sum required to complete, i.e. we are checking from the back of the array and taking elements. [Refer image](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/Subset%20Sum/readme.md#reference-images)
+- It is built on top of the logic of [0-1 Knapsack](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01-01-Knapsack.md) problem.
+- What does `sum` parameter in recursive function `isSumRec()` signify? It is the remaining sum required to complete, i.e. we are checking from the back of the array and taking elements. [Refer image](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/02-Subset-Sum.md#reference-images)
 - So when do we get a subset (which is our motive in the question)? Exactly! when the remaining sum becomes 0!
 - **Base Condition**: Just think normally, what can these be? We have `arr` and `sum`. 
   - Either we run out of elements `N == 0` to find a subset that have a sum equal to `sum`. In this case, we did NOT find an answer, return `false`
   - Either we get the subset we want. In this case `sum == 0` (remember sum == 0 means remaining sum == 0), hence return `true`!
-- The following 3 conditions work same as the [0-1 Knapsack](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01_Knapsack) problem.
+- The following 3 conditions work same as the [0-1 Knapsack](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01-01-Knapsack.md) problem.
 
 - If we can accomodate the element `if(arr[N - 1] <= sum)`, we can either
   - take it `isSumRec(N - 1, arr, sum - arr[N - 1])`
@@ -30,7 +30,7 @@ ___
     - If we have no elements to use, i.e. `n=0`, we can't make any sum except 0, so those cells are marked as `"false"`.
     - If we want to make a sum of 0, we can do it **without using any element**, so those cells are marked as `"true"`.
 - Then, we iterate over each element in the array and each possible sum from 1 to the desired sum.
-- The following 3 conditions work same as the [0-1 Knapsack](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01_Knapsack) problem.
+- The following 3 conditions work same as the [0-1 Knapsack](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01-01-Knapsack.md) problem.
 
   - If we can accomodate the element `if(arr[i - 1] <= j)`, we can either
     - take it `dp[i - 1][j - arr[i - 1]]`

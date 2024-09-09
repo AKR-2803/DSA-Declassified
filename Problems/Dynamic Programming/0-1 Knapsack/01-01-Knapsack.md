@@ -4,12 +4,12 @@
 #### Recursion
 - **Base Condition** : If the array empties, or remaining capacity is 0 (bag if full), we simply return 0 (as we cannot add an item in the bag in either case).
 - As [Aditya Verma](https://www.patreon.com/adityaVerma) calls it, the choice diagram for framing the solution.
-- We have following possibilities [refer diagram](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01_Knapsack/readme.md#reference-images)
+- We have following possibilities [refer diagram](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01-01-Knapsack.md#reference-images)
   - If weight of item can be accomodated in the bag.
     - Take it (Case-1)
     - Leave it (Case-2)
   - Weight of item cannot be accomodated in the bag (Case-3)
-- [Refer this example test case](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01_Knapsack/readme.md#reference-images) in diagram. `[W = 4, val[] = {1,2,3}, wt[] = {4,5,1}]`
+- [Refer this example test case](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/0-1%20Knapsack/01-01-Knapsack.md#reference-images) in diagram. `[W = 4, val[] = {1,2,3}, wt[] = {4,5,1}]`
 ___
 #### Memoization
 - Take a 2D dp array, where:
