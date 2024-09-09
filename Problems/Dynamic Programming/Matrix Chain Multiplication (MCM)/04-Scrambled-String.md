@@ -9,12 +9,12 @@
 
 - Next, if we swap, there might be two conditions that occur when observed carefully. Consider strings `A = "great"` and `B`, we want to check if `B` is a scrambled string of `A`.
 
-- **Condition-I** ([refer image](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming/Matrix%20Chain%20Multiplication%20(MCM)/Scrambled%20String#reference-images)): If we draw a binary tree of `A` and swap, let's say `"gr"` and `"eat"`, we get `"eatgr"`. Say `B = "eatgr"`. 
+- **Condition-I** ([refer image](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/Matrix%20Chain%20Multiplication%20(MCM)/04-Scrambled-String.md#reference-images)): If we draw a binary tree of `A` and swap, let's say `"gr"` and `"eat"`, we get `"eatgr"`. Say `B = "eatgr"`. 
   - How do we determine if `B` is a scrambled version of `A`? We need to check substring (first two characters) of `A` and substring (last two characters) of `B`, also substring (last three characters) of `A` and substring (first three characters) of `B`.
   - Example: `A = "great"`, `B = "eatgr"`. Compare `"gr"` (first in `A` and last in `B`) and `"eat"` (last in `A` and first in `B`).
   - There might also be a case where `"gr"` was swapped (g and r swapped) making `B = "eatrg"`. Hence, we need to check if the corresponding parts of `A` and `B` are scrambled or NOT.
 
-- **Condition-II** ([refer image](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming/Matrix%20Chain%20Multiplication%20(MCM)/Scrambled%20String#reference-images)): `A = "great"`, `B = "reate"`. Here, the corresponding parts need to be checked as scrambled or not. 
+- **Condition-II** ([refer image](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/Matrix%20Chain%20Multiplication%20(MCM)/04-Scrambled-String.md#reference-images)): `A = "great"`, `B = "reate"`. Here, the corresponding parts need to be checked as scrambled or not. 
   - Example: We need to check if `A`'s beginning (`"gr"`) and `B`'s beginning (`"rg"`) are scrambled, and `A`'s end (`"eat"`) and `B`'s end (`"ate"`) are scrambled.
   - Now, if **Condition-I** OR **Condition-II** is true, then YES, `B` is a scrambled string of `A`.
 
@@ -40,7 +40,8 @@ ___
 
 - Finally, return the `flag` as before.
 ___
-## Reference [Images](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming/Matrix%20Chain%20Multiplication%20(MCM)/Scrambled%20String/images)
+## Reference Images
+
 | Condition-I | 
 | ------------------ |
 | <img src="./images/Scrambled_Condition_1.png" height="400" width="950" alt="Screenshot"/> |
