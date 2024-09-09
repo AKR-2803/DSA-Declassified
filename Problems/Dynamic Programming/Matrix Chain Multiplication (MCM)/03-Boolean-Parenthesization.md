@@ -1,5 +1,5 @@
 
-## Boolean Parenthesization [[Link](https://www.geeksforgeeks.org/problems/boolean-parenthesization5610/1)]
+## Boolean Parenthesization [[Problem](https://www.geeksforgeeks.org/problems/boolean-parenthesization5610/1)] [[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/Matrix%20Chain%20Multiplication%20(MCM)/codes/BooleanParenthesization.java)]
 
 ### Approach
 ___

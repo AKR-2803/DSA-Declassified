@@ -1,5 +1,5 @@
-# Scrambled String
-##### [Interview Bit](https://www.interviewbit.com/problems/scramble-string/) |  [Leetcode](https://leetcode.com/problems/scramble-string/description/) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/scrambled-string/1)
+# Scrambled String [[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/Problems/Dynamic%20Programming/Matrix%20Chain%20Multiplication%20(MCM)/codes/ScrambledString.java)]
+### Problem: [Interview Bit](https://www.interviewbit.com/problems/scramble-string/) |  [Leetcode](https://leetcode.com/problems/scramble-string/description/) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/scrambled-string/1)
 
 ## Approach
 
