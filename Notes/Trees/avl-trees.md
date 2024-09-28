@@ -1,16 +1,16 @@
-## AVL Trees: Self Balancing Binary Search Tree
+# AVL Trees: Self Balancing Binary Search Tree
 
-### Code rotate functions explained [[code]()]
+## Code rotate functions explained [[code](https://github.com/AKR-2803/DSA-Declassified/blob/main/Notes/Trees/avl-trees.md#code)]
 
 - First determine if the case is C-1, C-2 C-3 or C-4.
 - Using the difference in heights of the subtrees, it is quite clear what case it is. 
 - Interpreting this **ON PAPER**: Starting from bottom up, we calculate height differences of the nodes, the first node where we encounter a violation (i.e. the height difference is NOT -1, 0  or +1) becomes our `p`.
-- And `c` is nothing but its child 
-  - `c = p.left` in C-1 & C-2, we perform right rotate. (Remember in C-2 we perform a left rotate first, to convert it into form of C-1. [Refer here]())
-  - `c = p.right` in C-3 & C-4, we perform left rotate. ([Refer here]() C-3)
+- And `c` is nothing but its child.\
+  - `c = p.left` in C-1 & C-2, we perform right rotate. (Remember in C-2 we perform a left rotate first, to convert it into form of C-1. [Refer here](https://github.com/AKR-2803/DSA-Declassified/blob/main/Notes/Trees/avl-trees.md#interpreting-the-4-cases))
+  - `c = p.right` in C-3 & C-4, we perform left rotate. ([Refer here](https://github.com/AKR-2803/DSA-Declassified/blob/main/Notes/Trees/avl-trees.md#interpreting-the-4-cases))
 - As far as `leftRotate()` and `rightRotate()` functions are concerned, just see the cases on paper, it is quite easy to interpret how the chidren of nodes `p` and `c` are changing. And just code accordingly.(Refer the image and then code)
 
-### Possible 4 Cases
+## Possible 4 Cases
 
 | 4 Possible Cases for Rotation                                            |
   |--------------------------------------------------------------------------|
@@ -18,7 +18,7 @@
 | <img src="../images/avl-trees-02.jpg" width="500" alt="AVL-Trees Cases"/> |
 
 
-##### Interpreting the 4 Cases
+### Interpreting the 4 Cases
 
 - **C-1 :** `left-left case -> right rotate -> Balanced Tree`
 - **C-3 :** `right-right case -> left rotate -> Balanced Tree`
@@ -35,7 +35,7 @@
   |--------------------------------------------------------------------------|
 | <img src="../images/avl-trees-03.jpg" width="500" alt="AVL-Trees Cases"/> |
 
-### Code 
+## Code 
 - Only part necessary to understand the rotations is kept.
 - Refer **full** [code here]()
 ```java
