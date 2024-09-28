@@ -19,7 +19,7 @@ class AVL {
     public AVL() {
     }
 
-    public int height(){
+    public int height() {
         return height(root);
     }
 
@@ -70,16 +70,16 @@ class AVL {
         return rotate(node);
     }
 
-    private Node rotate(Node node){
+    private Node rotate(Node node) {
         // left heavy tree
-        if(height(node.right) - height(node.left) < -1){
+        if (height(node.right) - height(node.left) < -1) {
             // left-left case
-            if(height(node.left.right) - height(node.left.left) < 0){
+            if (height(node.left.right) - height(node.left.left) < 0) {
                 return rightRotate(node);
             }
 
             // left-right case
-            if(height(node.left.right) - height(node.left.left) > 0){
+            if (height(node.left.right) - height(node.left.left) > 0) {
                 // left rotate(c), then it becomes left-left case, fo right rotate(p)
                 node.left = leftRotate(node.left);
                 return rightRotate(node);
@@ -87,21 +87,22 @@ class AVL {
         }
 
         // right heavy tree
-        if(height(node.right) - height(node.left) > 1){
+        if (height(node.right) - height(node.left) > 1) {
             // right-left case
-            if(height(node.right.right) - height(node.right.left) < 0){
+            if (height(node.right.right) - height(node.right.left) < 0) {
                 node.right = rightRotate(node.right);
                 return leftRotate(node);
             }
 
             // right-right case
-            if(height(node.right.right) - height(node.right.left) > 0){
+            if (height(node.right.right) - height(node.right.left) > 0) {
                 // left rotate(p)
                 return leftRotate(node);
             }
         }
 
-        // if none of the above conditions occur, that means it is a balanced tree even after the insertion, hence simply return the node
+        // if none of the above conditions occur, that means it is a balanced tree even
+        // after the insertion, hence simply return the node
         return node;
     }
 
@@ -137,7 +138,6 @@ class AVL {
         return c;
     }
 
-
     public void populate(int[] nums) {
         for (int num : nums) {
             this.insert(num);
@@ -155,13 +155,12 @@ class AVL {
         return Math.abs(height(node.left) - height(node.right)) <= 1 && balanced(node.left) && balanced(node.right);
     }
 
-
-    public void preorder(){
+    public void preorder() {
         preorder(root);
     }
 
-    private void preorder(Node node){
-        if(node == null){
+    private void preorder(Node node) {
+        if (node == null) {
             return;
         }
         System.out.print(node.value + " - ");
@@ -169,12 +168,12 @@ class AVL {
         preorder(node.right);
     }
 
-    public void postorder(){
+    public void postorder() {
         postorder(root);
     }
 
-    private void postorder(Node node){
-        if(node == null){
+    private void postorder(Node node) {
+        if (node == null) {
             return;
         }
         postorder(node.left);
@@ -182,19 +181,16 @@ class AVL {
         System.out.print(node.value + " - ");
     }
 
-    public void inorder(){
+    public void inorder() {
         inorder(root);
     }
 
-    private void inorder(Node node){
-        if(node == null){
+    private void inorder(Node node) {
+        if (node == null) {
             return;
         }
         inorder(node.left);
         System.out.print(node.value + " - ");
         inorder(node.right);
     }
-
-
-
 }
