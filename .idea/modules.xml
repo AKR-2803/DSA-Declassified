@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Problems/Dynamic Programming/0-1 Knapsack/0-1 Knapsack.iml" filepath="$PROJECT_DIR$/Problems/Dynamic Programming/0-1 Knapsack/0-1 Knapsack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DSA-Declassified.iml" filepath="$PROJECT_DIR$/.idea/DSA-Declassified.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problems/Dynamic Programming/Matrix Chain Multiplication (MCM)/Matrix Chain Multiplication (MCM).iml" filepath="$PROJECT_DIR$/Problems/Dynamic Programming/Matrix Chain Multiplication (MCM)/Matrix Chain Multiplication (MCM).iml" />
+    </modules>
+  </component>
+</project>
