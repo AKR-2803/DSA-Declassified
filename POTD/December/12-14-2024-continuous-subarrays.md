@@ -71,7 +71,7 @@ We utilize a **sliding window** technique with the help of two **deques**:
 - **Return Total Count:**
    - Add `count` from all valid windows.
 
-#### Complexity Analysis
+### Complexity Analysis
 
 - **Time Complexity:**
    - Each element is added and removed from the deques at most once, hence `O(n)`
