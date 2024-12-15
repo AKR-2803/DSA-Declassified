@@ -5,7 +5,7 @@
 - When adding extra students to a class, the first student has the **highest impact on the pass ratio**. 
 - Each subsequent student has a diminishing effect on the improvement of the pass ratio. 
 - This is because as the total number of students increases, the gain from adding one more student decreases. 
-- [**Refer Image**]() for more clarity on this
+- [**Refer Image**](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/12-15-2024-maxavg-pass-ratio.md#reference-images) for more clarity on this
 
 ## Approach
 
@@ -50,7 +50,7 @@
 
 ### [Code here](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/MaxAvgPassRatio.java)
 
-### Reference Images
+### Reference Image
 | Understanding diminishing effect on gain                                             | 
 |--------------------------------------------------------------------------------------| 
 | <img src="../images/12-15-2024-max-avg-pass-ratio-01.jpg" height=700 width=500 alt="continuous-subarrays-problem"/> |x
