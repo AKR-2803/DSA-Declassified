@@ -6,9 +6,8 @@ Quickly browse through sections using the following information:
 
 |        Folder        | Purpose  |
 |----------------|-------------|
-| [Problems](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems)  | Coding problems with solutions explained |
+| [POTD](https://github.com/AKR-2803/DSA-Declassified/tree/main/POTD)  | Leetcode Problem of the Day |
 | [Dynamic Programming](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming)  | Problems related to Dynamic Programming |
 | [Notes](https://github.com/AKR-2803/DSA-Declassified/tree/main/Notes)  | Notes on some DSA Concepts |
 
-<br><br>I’ve just started this repository, so expect more problems and updates to come your way.
 <br><br>As I’m learning alongside you, any feedback and reviews are highly appreciated.

@@ -1,4 +1,4 @@
-# 2762. Continuous Subarrays [[Problem](https://leetcode.com/problems/continuous-subarrays/description/)][[Code]()]
+# 2762. Continuous Subarrays [[Problem](https://leetcode.com/problems/continuous-subarrays/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/ContinuousSubarrays.java)]
 
 ## Approach
 
@@ -80,11 +80,11 @@ We utilize a **sliding window** technique with the help of two **deques**:
    - The two deques require `O(n)` space in the worst case.
 
 
-### [Code here]()
+### [Code here](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/ContinuousSubarrays.java)
 
 ### Reference Images
 | Dry run example [5,2,4,3]                                                             | 
 |--------------------------------------------------------------------------------------| 
-| <img src="./images/12-14-2024-continuous-subarrays-01.jpg" alt="continuous-subarrays-problem"/> |
-| <img src="./images/12-14-2024-continuous-subarrays-02.jpg" alt="continuous-subarrays-problem"/> |
-| <img src="./images/12-14-2024-continuous-subarrays-03.jpg" alt="continuous-subarrays-problem"/> |
+| <img src="../images/12-14-2024-continuous-subarrays-01.jpg" alt="continuous-subarrays-problem"/> |
+| <img src="../images/12-14-2024-continuous-subarrays-02.jpg" alt="continuous-subarrays-problem"/> |
+| <img src="../images/12-14-2024-continuous-subarrays-03.jpg" alt="continuous-subarrays-problem"/> |
