@@ -33,7 +33,7 @@
     - Calculate the new gain
     - Update the gain and push the class back into the heap
 
--   **Simple calculate and return the final pass ratio**
+-   **Simply calculate and return the final pass ratio**
 
 ### Complexity Analysis
 
