@@ -85,6 +85,6 @@ We utilize a **sliding window** technique with the help of two **deques**:
 ### Reference Images
 | Dry run example [5,2,4,3]                                                             | 
 |--------------------------------------------------------------------------------------| 
-| <img src="../images/12-14-2024-continuous-subarrays-01.jpg" alt="continuous-subarrays-problem"/> |
-| <img src="../images/12-14-2024-continuous-subarrays-02.jpg" alt="continuous-subarrays-problem"/> |
-| <img src="../images/12-14-2024-continuous-subarrays-03.jpg" alt="continuous-subarrays-problem"/> |
+| <img src="../images/12-14-2024-continuous-subarrays-01.jpg" height=700 width=500 alt="continuous-subarrays-problem"/> |
+| <img src="../images/12-14-2024-continuous-subarrays-02.jpg" height=700 width=500 alt="continuous-subarrays-problem"/> |
+| <img src="../images/12-14-2024-continuous-subarrays-03.jpg" height=400 width=500 alt="continuous-subarrays-problem"/> |
