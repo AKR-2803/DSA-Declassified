@@ -16,6 +16,5 @@ We may use 2 pointers `start` and `end`. And a pointer `i`.
 `end = arr.length - 1` (last index of the array)
 
 
-
 0's will be swapped to the `start` and 2s will be swapped with `end`
 
