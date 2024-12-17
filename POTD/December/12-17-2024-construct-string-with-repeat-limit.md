@@ -16,7 +16,7 @@
    - Append it up to the `repeatLimit` or its remaining count.
    - If the character still has more occurrences, check for an alternate character to break the repetition.
    - Reinsert both the current character (if occurrences remain) and the alternate character into the heap.
-   - [Refer Image](https://github.com/AKR-2803/DSA-Declassified/edit/main/POTD/December/12-17-2024-construct-string-with-repeat-limit.md#reference-image) and the code below to understand main logic behind the approach.
+   - [Refer Image](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/12-17-2024-construct-string-with-repeat-limit.md#reference-image) and the code below to understand main logic behind the approach.
 ```java
 if(count > addLimit){
     // no character to break the `repeatLimit`
