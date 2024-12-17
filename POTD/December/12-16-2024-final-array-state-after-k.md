@@ -1,6 +1,11 @@
 # POTD 12-16-2024
 
+
 ## 3264. Final Array State After K Multiplication Operations I [[Problem](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/FinalArrayStateAfterK.java)]
+
+ ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy) 
+<!-- ![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)   -->
+<!-- ![Hard](https://via.placeholder.com/50x20/FF0000/000000?text=Hard) -->
 
 #### **Tags:** [`Array`](https://leetcode.com/problem-list/array/) [`Math`](https://leetcode.com/problem-list/math/) [`Heap(PriorityQueue)`](https://leetcode.com/problem-list/heap-priority-queue/) [`Simulation`](https://leetcode.com/problem-list/simulation/)
 

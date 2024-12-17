@@ -1,6 +1,11 @@
 # POTD 12-17-2024
 
+
 ## 2182. Construct String With Repeat Limit [[Problem](https://leetcode.com/problems/construct-string-with-repeat-limit/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/ConstructStringWithRepeatLimit.java)]
+
+<!--  ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy)  -->
+![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)  
+<!-- ![Hard](https://via.placeholder.com/50x20/FF0000/000000?text=Hard) -->
 
 #### **Tags:** [`Hash Table`](https://leetcode.com/tag/hash-table/) [`String`](https://leetcode.com/tag/string/) [`Greedy`](https://leetcode.com/tag/greedy/) [`Heap(Priority Queue)`](https://leetcode.com/tag/heap-priority-queue/) [`Counting`](https://leetcode.com/tag/counting/)
 

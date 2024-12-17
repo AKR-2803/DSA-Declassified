@@ -2,6 +2,10 @@
 
 ## 1792. Maximum Average Pass Ratio [[Problem](https://leetcode.com/problems/maximum-average-pass-ratio/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/MaxAvgPassRatio.java)]
 
+<!--  ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy)  -->
+![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)  
+<!-- ![Hard](https://via.placeholder.com/50x20/FF0000/000000?text=Hard) -->
+
 #### **Tags:** [`Array`](https://leetcode.com/problem-list/array/) [`Greedy`](https://leetcode.com/problem-list/greedy/) [`Heap (Priority Queue)`](https://leetcode.com/problem-list/heap-priority-queue/)
 
 ## Intuition
