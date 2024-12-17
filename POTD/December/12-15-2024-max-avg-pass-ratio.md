@@ -1,4 +1,6 @@
-# 1792. Maximum Average Pass Ratio [[Problem](https://leetcode.com/problems/maximum-average-pass-ratio/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/MaxAvgPassRatio.java)]
+# POTD 12-15-2024
+
+## 1792. Maximum Average Pass Ratio [[Problem](https://leetcode.com/problems/maximum-average-pass-ratio/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/MaxAvgPassRatio.java)]
 
 #### **Tags:** [`Array`](https://leetcode.com/problem-list/array/) [`Greedy`](https://leetcode.com/problem-list/greedy/) [`Heap (Priority Queue)`](https://leetcode.com/problem-list/heap-priority-queue/)
 
