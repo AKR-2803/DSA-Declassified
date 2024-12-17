@@ -57,4 +57,4 @@
 ### Reference Image
 | Understanding diminishing effect on gain                                             | 
 |--------------------------------------------------------------------------------------| 
-| <img src="../images/12-15-2024-max-avg-pass-ratio-01.jpg" height=700 width=500 alt="continuous-subarrays-problem"/> |x
+| <img src="../images/12-15-2024-max-avg-pass-ratio-01.jpg" height=700 width=500 alt="continuous-subarrays-problem"/> |
