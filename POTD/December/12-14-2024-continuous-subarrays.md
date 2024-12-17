@@ -1,5 +1,7 @@
 # 2762. Continuous Subarrays [[Problem](https://leetcode.com/problems/continuous-subarrays/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/ContinuousSubarrays.java)]
 
+#### **Tags:** [`Array`](https://leetcode.com/problem-list/array/) [`Queue`](https://leetcode.com/problem-list/queue/) [`Sliding Window`](https://leetcode.com/problem-list/sliding-window/) [`Heap(PriorityQueue)`](https://leetcode.com/problem-list/heap-priority-queue/) [`Ordered Set`](https://leetcode.com/problem-list/ordered-set/) [`Monotonic Queue`](https://leetcode.com/problem-list/monotonic-queue/)
+
 ## Approach
 
 ### 1. Brute-Force
