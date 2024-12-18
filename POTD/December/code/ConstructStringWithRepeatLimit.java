@@ -44,7 +44,6 @@ class Solution {
                 maxHeap.offer(new int[] {ascii, count - addLimit});
             }
         }
-
         return result.toString();
     }
 }

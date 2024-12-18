@@ -21,7 +21,6 @@ class Solution {
             
             heap.offer(new int[]{nums[idx], idx});
         }
-
         return nums;
     }
 }
