@@ -1,4 +1,4 @@
-# POTD 12-14-2024
+# POTD 12-16-2024
 
 
 ## 3264. Final Array State After K Multiplication Operations I [[Problem](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/FinalArrayStateAfterK.java)]

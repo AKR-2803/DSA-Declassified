@@ -1,4 +1,4 @@
-# POTD 12-15-2024
+# POTD 12-17-2024
 
 
 ## 2182. Construct String With Repeat Limit [[Problem](https://leetcode.com/problems/construct-string-with-repeat-limit/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/ConstructStringWithRepeatLimit.java)]
@@ -21,7 +21,7 @@
    - Append it up to the `repeatLimit` or its remaining count.
    - If the character still has more occurrences, check for an alternate character to break the repetition.
    - Reinsert both the current character (if occurrences remain) and the alternate character into the heap.
-   - [Refer Image](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/12-15-2024-construct-string-with-repeat-limit.md#reference-image) and the code below to understand main logic behind the approach.
+   - [Refer Image](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/12-17-2024-construct-string-with-repeat-limit.md#reference-image) and the code below to understand main logic behind the approach.
 ```java
 if(count > addLimit){
     // no character to break the `repeatLimit`
@@ -64,7 +64,7 @@ ___
 ### Reference Image
 | Logic behind the approach                                             | 
 |--------------------------------------------------------------------------------------| 
-| <img src="../images/12-15-2024-construct-string-with-repeat-limit-01.jpg" width=500 alt="construct-string-with-repeat-limit"/> |
+| <img src="../images/12-17-2024-construct-string-with-repeat-limit-01.jpg" width=500 alt="construct-string-with-repeat-limit"/> |
 
 
 ### [Full Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/ConstructStringWithRepeatLimit.java)

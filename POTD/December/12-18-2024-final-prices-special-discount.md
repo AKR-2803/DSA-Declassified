@@ -1,4 +1,4 @@
-# POTD 12-16-2024
+# POTD 12-18-2024
 
 ## 1475. Final Prices With a Special Discount in a Shop [[Problem](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/FinalPricesSpecialDiscount.java)]
 
