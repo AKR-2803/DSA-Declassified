@@ -6,7 +6,7 @@
 ![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)  
 <!-- ![Hard](https://via.placeholder.com/50x20/FF0000/000000?text=Hard) -->
 
-#### **Tags:** [`Array`](https://leetcode.com/problem-list/array/), [`Stack`](https://leetcode.com/problem-list/stack/), [`Greedy`](https://leetcode.com/problem-list/greedy/), [`Sorting`](https://leetcode.com/problem-list/sorting/), [`Monotonic Stack`](https://leetcode.com/problem-list/monotonic-stack/)
+#### **Tags:** [`Array`](https://leetcode.com/problem-list/array/) [`Stack`](https://leetcode.com/problem-list/stack/) [`Greedy`](https://leetcode.com/problem-list/greedy/) [`Sorting`](https://leetcode.com/problem-list/sorting/) [`Monotonic Stack`](https://leetcode.com/problem-list/monotonic-stack/)
 
 ## Intuition  
 - The key observation is that a chunk can end at index `i` if the maximum value encountered so far (`maxSoFar`) is equal to `i`. 
@@ -22,6 +22,11 @@
     - Check if `maxSoFar` equals `i`. If true, increment the chunk counter (`cnt`).  
 
 - Return `cnt`
+
+### Complexity Analysis
+- **Time Complexity: _O(n)_**  
+
+- **Space Complexity: _O(1)_**
 
 ### Reference Image
 | Logic behind the approach                                             | 
