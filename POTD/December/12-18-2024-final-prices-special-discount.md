@@ -57,7 +57,7 @@ class Solution {
 - Return the modified result array.
 - The stack ensures we process each element efficiently in a monotonic decreasing order, allowing for quick discount application.
 
-#### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/FinalPricesSpecialDiscount.java):
+#### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/FinalPricesSpecialDiscount.java)
 ```java
 class Solution {
     public int[] finalPrices(int[] prices) {
