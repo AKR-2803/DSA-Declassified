@@ -28,15 +28,20 @@
 | Two pointer technique to reverse a list                               | 
 |--------------------------------------------------------------------------------------| 
 | <img src="../images/12-20-2024-reverse-odd-levels-binary-tree-01.jpg" width=500 alt="reverse-odd-levels-binary-tree"/> |
-    - Code for this part:
+    
+- Code for this part:
+
 ```java
 public void reverseValues(List<TreeNode> currentLevel){
     int start = 0, end = currentLevel.size() - 1;
 
     while (start < end) {
+        // swap values
         int tmp = currentLevel.get(left).val;
         currentLevel.get(start).val = currentLevel.get(end).val;
         currentLevel.get(end).val = tmp;
+
+        // increment start, decrement end
         start++;
         end--;
     }
@@ -46,7 +51,7 @@ public void reverseValues(List<TreeNode> currentLevel){
 - Use a `queue` to traverse the tree level-by-level.
 - Store nodes at each level in a temporary list.
 - If the level is odd, reverse the values in the list (two-pointer technique).
-- Continue traversing to deeper levels.
+- Continue traversing until all levels are explored.
 
 ### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/ReverseOddLevelsBinaryTree.java)
 ```java
@@ -109,13 +114,10 @@ public void reverseValues(List<TreeNode> currentLevel){
 - Recursively process:  
    - Left child's **left** subtree with the right child's **right** subtree.  
    - Left child's **right** subtree with the right child's **left** subtree.
-   - **WHY ?**
-   - Refer this:
-
+   - **WHY?**
 | Example Input                              |    Approach                              |
 |---------------------------| --------------------------- 
 | <img src="../images/12-20-2024-reverse-odd-levels-binary-tree-02.jpg" width=500 alt="reverse-odd-levels-binary-tree"/> | <img src="../images/12-20-2024-reverse-odd-levels-binary-tree-03.jpg" width=500 alt="reverse-odd-levels-binary-tree"/> | 
-
 
 | DFS Recursive Tree                                              | 
 |--------------------------------------------------------------------------------------| 
@@ -143,3 +145,4 @@ public void reverseDFS(TreeNode leftChild, TreeNode rightChild, int lvl) {
     reverseDFS(leftChild.left, rightChild.right, lvl + 1); // Outer pair
     reverseDFS(leftChild.right, rightChild.left, lvl + 1); // Inner pair
 }
+```
