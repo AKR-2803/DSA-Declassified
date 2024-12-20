@@ -115,6 +115,7 @@ public void reverseValues(List<TreeNode> currentLevel){
    - Left child's **left** subtree with the right child's **right** subtree.  
    - Left child's **right** subtree with the right child's **left** subtree.
    - **WHY?**
+
 | Example Input                              |    Approach                              |
 |---------------------------| --------------------------- 
 | <img src="../images/12-20-2024-reverse-odd-levels-binary-tree-02.jpg" width=500 alt="reverse-odd-levels-binary-tree"/> | <img src="../images/12-20-2024-reverse-odd-levels-binary-tree-03.jpg" width=500 alt="reverse-odd-levels-binary-tree"/> | 
