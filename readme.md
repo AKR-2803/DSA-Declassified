@@ -6,7 +6,7 @@ Quickly browse through sections using the following information:
 
 |        Folder        | Purpose  |
 |----------------|-------------|
-| [POTD-Leetcode](https://github.com/AKR-2803/DSA-Declassified/tree/main/POTD-Leetcode)  | Leetcode Daily Challenge |
+| [POTD-Leetcode](https://github.com/AKR-2803/DSA-Declassified/tree/main/POTD-Leetcode)  | Leetcode Daily Challenge explained with code |
 | [Dynamic Programming](https://github.com/AKR-2803/DSA-Declassified/tree/main/Problems/Dynamic%20Programming)  | Problems related to Dynamic Programming |
 | [Notes](https://github.com/AKR-2803/DSA-Declassified/tree/main/Notes)  | Notes on some DSA Concepts |
 
