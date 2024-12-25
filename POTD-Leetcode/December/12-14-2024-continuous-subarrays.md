@@ -1,6 +1,6 @@
 # POTD 12-14-2024
 
-## 2762. Continuous Subarrays [[Problem](https://leetcode.com/problems/continuous-subarrays/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/ContinuousSubarrays.java)]
+## 2762. Continuous Subarrays [[Problem](https://leetcode.com/problems/continuous-subarrays/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/ContinuousSubarrays.java)]
 
 <!--  ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy)  -->
 ![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)  
@@ -95,7 +95,7 @@ We utilize a **sliding window** technique with the help of two **deques**:
 | <img src="../images/12-14-2024-continuous-subarrays-02.jpg" height=700 width=500 alt="continuous-subarrays-problem"/> |
 | <img src="../images/12-14-2024-continuous-subarrays-03.jpg" height=400 width=500 alt="continuous-subarrays-problem"/> |
 
-### [Full Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/ContinuousSubarrays.java)
+### [Full Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/ContinuousSubarrays.java)
 
 ```java
 class Solution {

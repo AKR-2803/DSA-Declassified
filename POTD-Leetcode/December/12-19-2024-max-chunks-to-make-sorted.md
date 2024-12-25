@@ -1,6 +1,6 @@
 # POTD 12-19-2024
 
-## 769. Max Chunks To Make Sorted [[Problem](https://leetcode.com/problems/max-chunks-to-make-sorted/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/MaxChunksToMakeSorted.java)]
+## 769. Max Chunks To Make Sorted [[Problem](https://leetcode.com/problems/max-chunks-to-make-sorted/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/MaxChunksToMakeSorted.java)]
 
  <!-- ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy)  -->
 ![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)  
@@ -33,7 +33,7 @@
 |--------------------------------------------------------------------------------------| 
 | <img src="../images/12-19-2024-max-chunks-to-make-sorted.jpg" width=500 alt="max-chunks-to-make-sorted"/> |
 
-#### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/MaxChunksToMakeSorted.java)
+#### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/MaxChunksToMakeSorted.java)
 ```java
 class Solution { 
     public int maxChunksToSorted(int[] arr) {

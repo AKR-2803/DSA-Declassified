@@ -1,6 +1,6 @@
 # POTD 12-21-2024
 
-## 2872. Maximum Number of K-Divisible Components [[Problem](https://leetcode.com/problems/maximum-number-of-k-divisible-components/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/MaxNoOfKDivComponents.java)]
+## 2872. Maximum Number of K-Divisible Components [[Problem](https://leetcode.com/problems/maximum-number-of-k-divisible-components/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/MaxNoOfKDivComponents.java)]
 
 <!-- ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy)  -->
 <!-- ![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)   -->
@@ -61,7 +61,7 @@
   - The recursion stack for DFS also takes `O(n)` space in the worst case.
 
   
-#### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/MaxNoOfKDivComponents.java)
+#### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/MaxNoOfKDivComponents.java)
 ```java
 class Solution {
     int result = 0; 

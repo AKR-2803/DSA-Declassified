@@ -1,6 +1,6 @@
 # POTD 12-20-2024
 
-## 2415. Reverse Odd Levels of Binary Tree [[Problem](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/ReverseOddLevelsBinaryTree.java)]
+## 2415. Reverse Odd Levels of Binary Tree [[Problem](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/ReverseOddLevelsBinaryTree.java)]
 
  <!-- ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy)  -->
 ![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)  
@@ -53,7 +53,7 @@ public void reverseValues(List<TreeNode> currentLevel){
 - If the level is odd, reverse the values in the list (two-pointer technique).
 - Continue traversing until all levels are explored.
 
-### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/ReverseOddLevelsBinaryTree.java)
+### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/ReverseOddLevelsBinaryTree.java)
 ```java
 public TreeNode reverseBFS(TreeNode root) {
     if (root == null) {
@@ -129,7 +129,7 @@ public void reverseValues(List<TreeNode> currentLevel){
 
 - **Note**: We only reverse **nodes values** at odd levels which keeps the tree structure maintained.
 
-### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/ReverseOddLevelsBinaryTree.java)
+### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/ReverseOddLevelsBinaryTree.java)
 ```java
 public void reverseDFS(TreeNode leftChild, TreeNode rightChild, int lvl) {
     if (leftChild == null || rightChild == null) {

@@ -1,7 +1,7 @@
 # POTD 12-16-2024
 
 
-## 3264. Final Array State After K Multiplication Operations I [[Problem](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/FinalArrayStateAfterK.java)]
+## 3264. Final Array State After K Multiplication Operations I [[Problem](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/FinalArrayStateAfterK.java)]
 
  ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy) 
 <!-- ![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)   -->
@@ -62,7 +62,7 @@ PriorityQueue<int[]> heap = new PriorityQueue<>((a, b) -> {
 - **Space Complexity: _O(n)_**  
     - The heap stores all the array elements.
 
-### [Full Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/FinalArrayStateAfterK.java)
+### [Full Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/FinalArrayStateAfterK.java)
 
 ```java
 class Solution {

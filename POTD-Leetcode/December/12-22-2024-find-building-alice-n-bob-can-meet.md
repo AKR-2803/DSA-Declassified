@@ -1,6 +1,6 @@
 # POTD 12-22-2024
 
-## 2940. Find Building Where Alice and Bob Can Meet [[Problem](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/FindBuildingAliceNBobCanMeet.java)]
+## 2940. Find Building Where Alice and Bob Can Meet [[Problem](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/FindBuildingAliceNBobCanMeet.java)]
 
 <!-- ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy)  -->
 <!-- ![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)   -->
@@ -36,7 +36,7 @@
   - Storage for `lists`: `O(n+q)` to store all pending queries.
   - Priority queue: `O(q)`
 
-#### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/FindBuildingAliceNBobCanMeet.java)
+#### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/FindBuildingAliceNBobCanMeet.java)
 ```java
 class Solution {
     public int[] leftmostBuildingQueries(int[] heights, int[][] queries) {

@@ -1,6 +1,6 @@
 # POTD 12-23-2024
 
-## 2471. Minimum No. of Operations to Sort a Binary Tree by Level [[Problem](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/MinNoOfOpSortBinaryTreeByLvl.java)]
+## 2471. Minimum No. of Operations to Sort a Binary Tree by Level [[Problem](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/MinNoOfOpSortBinaryTreeByLvl.java)]
 
 <!-- ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy)  -->
 ![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)  
@@ -33,7 +33,7 @@
     - Queue has at max `n/2` elements (Complete binary tree has maximum `n/2` elements at a level)
     - Additional space for arrays and maps within `findSwaps()`, but bounded by `O(n)`
 
-#### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/MinNoOfOpSortBinaryTreeByLvl.java)
+#### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/MinNoOfOpSortBinaryTreeByLvl.java)
 ```java
 class Solution {
     public int minimumOperations(TreeNode root) {

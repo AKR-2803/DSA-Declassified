@@ -1,6 +1,6 @@
 # POTD 12-18-2024
 
-## 1475. Final Prices With a Special Discount in a Shop [[Problem](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/FinalPricesSpecialDiscount.java)]
+## 1475. Final Prices With a Special Discount in a Shop [[Problem](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/FinalPricesSpecialDiscount.java)]
 
 ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy) 
 <!-- ![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)   -->
@@ -57,7 +57,7 @@ class Solution {
 - Return the modified result array.
 - The stack ensures we process each element efficiently in a monotonic decreasing order, allowing for quick discount application.
 
-#### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/FinalPricesSpecialDiscount.java)
+#### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/FinalPricesSpecialDiscount.java)
 ```java
 class Solution {
     public int[] finalPrices(int[] prices) {

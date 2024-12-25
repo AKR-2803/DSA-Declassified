@@ -1,6 +1,6 @@
 # POTD 12-24-2024
 
-## 3203. Find Minimum Diameter After Merging Two Trees [[Problem](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/FindMinDiameterAfterMergingTwoTrees.java)]
+## 3203. Find Minimum Diameter After Merging Two Trees [[Problem](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/FindMinDiameterAfterMergingTwoTrees.java)]
 
 <!-- ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy)  -->
 <!-- ![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)   -->
@@ -83,7 +83,7 @@ Output
     - `O(n + m)` for storing the adjacency lists of the two trees and stack space of recursive DFS.
 
 
-#### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD/December/code/FindMinDiameterAfterMergingTwoTrees.java)
+#### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/FindMinDiameterAfterMergingTwoTrees.java)
 ```java
 class Solution {
     private boolean[] visited;
