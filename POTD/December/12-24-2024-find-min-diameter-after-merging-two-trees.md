@@ -24,23 +24,25 @@
 
 - **Merge the Trees:**
     - After calculating the diameters (`d1` for tree1 and `d2` for tree2), the best way to minimize the resulting tree's diameter is by connecting the **middle nodes of both trees**.
-    - The formula to calculate the potential diameter after merging both trees is:
+    - To calculate the final diameter after merging both trees is:
      ``` 
-     d_merge = Math.ceil(d1 / 2) + 1 + Math.ceil(d2 / 2)
+     dMerge = Math.ceil(d1 / 2) + 1 + Math.ceil(d2 / 2)
      ```
     - This formula adds distance from the middle nodes of both trees and the added edge (`+ 1`) between them.
-    - Let us understand the merging procedure using a test case
-    ```
-    Input
-    edges1 = [[0,1], [0,2], [0,3], [1,6], [6,7], [2,4], [4,5]]
-    edges2 = [[0,1], [0,2], [0,3], [0,4], [4,7], [2,5], [5,6]]
-
-    Output
-    7
-    ```
-### Merging procedure
     
-| 1. Tree1 and Tree2 Diameters             |    2. Compute diameters       |
+### Merging procedure
+
+- Let us understand the merging procedure using the following test case
+```
+Input
+edges1 = [[0,1], [0,2], [0,3], [0,4], [2,5], [4,7], [5,6]]
+edges2 = [[0,7], [6,7], [2,6], [2,3], [2,1], [1,4], [4,5]]
+
+Output
+7
+```
+    
+| 1. Tree1 and Tree2             |    2. Compute diameters       |
 |---------------------------| ---------------------------------------- |
 | <img src="../images/12-24-2024-find-min-diameter-after-merging-two-trees-01.png" width=500 alt="find-min-diameter-after-merging-two-trees"/> | <img src="../images/12-24-2024-find-min-diameter-after-merging-two-trees-02.png" width=500 alt="find-min-diameter-after-merging-two-trees"/> | 
 
@@ -63,13 +65,19 @@
         - As merging **might not reduce** the diameter, and the final diameter could still come from one of the original trees.
 
 - **Edge Case:**
-   - If one of the trees has only one node, then the merging won't affect the diameter, and it will simply be the diameter of the other tree.
+   - One of the trees has 1 node and the other has 2 nodes
+   ```java
+    // Special case where one tree has diameter `1` and the other has diameter `0`
+    if ((d1 == 1 && d2 == 0) || (d1 == 0 && d2 == 1)) {
+        return Math.max(d1, d2) + 1;
+    }
+   ```
 
 ### Complexity Analysis
 
 - **Time Complexity:_O(n + m)_** 
     - `n` and `m` are the no. of nodes in the two trees.
-    - This is because BFS/DFS is performed on each tree to calculate the diameter, and merging involves constant-time operations.
+    - DFS is performed on each tree to calculate the diameter, and merging involves constant-time operations.
 
 - **Space Complexity:_O(n + m)_** 
     - `O(n + m)` for storing the adjacency lists of the two trees and stack space of recursive DFS.
