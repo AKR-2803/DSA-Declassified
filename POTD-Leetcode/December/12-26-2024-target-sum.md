@@ -59,7 +59,7 @@ class Solution {
 }
 ```
 
-### 2. Memoization [TC: _O(2^n)_]
+### 2. Memoization [TC: _O(n * totalSum)_]
 
 - DP Memoization will help is storing the values of subproblems so that we don't need to recalculate them over and over unnecessarily.  
 - Take 2D `dp` array to store the no. of ways for `[n][possible_sum]`
