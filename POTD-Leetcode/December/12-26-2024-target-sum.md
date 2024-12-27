@@ -9,7 +9,7 @@
 #### **Tags:** [`Array`](https://leetcode.com/problem-list/array/) [`Dynamic Programming`](https://leetcode.com/problem-list/dynamic-programming/) [`Backtracking`](https://leetcode.com/problem-list/backtracking/) 
 
 ## Intuition
-- Each elemnet in the array can either be positive (+num) or negative (-num) to the target.
+- Each element in the array can either be positive (+num) or negative (-num) to the target.
 - When you have such choices (decision-making), think of DP.
 - And avoid repetitive calculations by storing results for subproblems.
 
@@ -61,7 +61,7 @@ class Solution {
 
 ### 2. Memoization [TC: _O(n * totalSum)_]
 
-- DP Memoization will help is storing the values of subproblems so that we don't need to recalculate them over and over unnecessarily.  
+- DP Memoization will help in storing the values of subproblems so that we don't need to recalculate them over and over unnecessarily.  
 - Take 2D `dp` array to store the no. of ways for `[n][possible_sum]`
 - What can be the `possible_sum`?
 
