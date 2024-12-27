@@ -25,7 +25,7 @@
 - The **for loop**: 
     - For `i=0`, the first spot is the `ith` spot, we cannot calculate `maxScore` yet without second spot.
     - From `i=1` to `i=n-1`:
-        - keep updating `maxScore`
+        - Keep updating `maxScore`
         ```java
         if(i > 0){
             int j = i;
@@ -47,7 +47,13 @@
 - **Space Complexity: _O(1)_**  
     - No additional space used.
 
-### [Full Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/BestSightseeingPair.java)
+### Reference Image
+| Example [8,1,5,2,6,7]                                              | 
+|--------------------------------------------------------------------------------------| 
+| <img src="../images/12-27-2024-best-sightseeing-pair-01.jpg" height=700 width=500 alt="best-sightseeing-pair"/> |
+
+
+### [Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/BestSightseeingPair.java)
 
 ```java
 class Solution {
@@ -72,7 +78,6 @@ class Solution {
             // update the ith spot when a higher value is found
             maxi = Math.max(maxi, values[i] + i);
         }
-
         return maxScore;
     }
 }
