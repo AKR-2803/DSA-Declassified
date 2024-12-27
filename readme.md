@@ -48,6 +48,7 @@ Difficulty tags use:
 | 12-23-2024 | [2471. Minimum No. of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/12-23-2024-min-ops-to-sort-binary-tree-by-lvl.md) |   
 | 12-24-2024 | [3203. Find Minimum Diameter After Merging Two Trees ](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/description/) | ![Hard][hard_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/12-24-2024-find-min-diameter-after-merging-two-trees.md) |   
 | 12-25-2024 | [515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/12-25-2024-find-largest-value-in-each-tree-row.md) |   
+| 12-26-2024 | [494. Target Sum](https://leetcode.com/problems/target-sum/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/12-26-2024-target-sum.md) |     
 
 
 
