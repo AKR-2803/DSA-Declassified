@@ -50,8 +50,7 @@ Difficulty tags use:
 | 12-25-2024 | [515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/12-25-2024-find-largest-value-in-each-tree-row.md) |   
 | 12-26-2024 | [494. Target Sum](https://leetcode.com/problems/target-sum/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/12-26-2024-target-sum.md) |     
 | 12-27-2024 | [1014. Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/12-27-2024-best-sightseeing-pair.md) |     
-
-
+| 12-28-2024 | [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/description/) | ![Hard][hard_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/12-28-2024-max-sum-of-3-non-overlapping-subarrays.md) |     
 
 
 
