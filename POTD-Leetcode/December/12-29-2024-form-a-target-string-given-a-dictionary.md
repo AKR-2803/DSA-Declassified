@@ -1,4 +1,4 @@
-# POTD 12-28-2024
+# POTD 12-29-2024
 
 ## 1639. Number of Ways to Form a Target String Given a Dictionary [[Problem](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/FormATargetStringGivenADictionary.java)]
 
