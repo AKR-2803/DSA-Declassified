@@ -51,9 +51,9 @@ Difficulty tags use:
 | 12-26-2024 | [494. Target Sum](https://leetcode.com/problems/target-sum/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/12-26-2024-target-sum.md) |     
 | 12-27-2024 | [1014. Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/12-27-2024-best-sightseeing-pair.md) |     
 | 12-28-2024 | [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/description/) | ![Hard][hard_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/12-28-2024-max-sum-of-3-non-overlapping-subarrays.md) |     
-| 12-29-2024 | [1639. Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/description/) | ![Hard][hard_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/12-29-2024-form-a-target-string-given-a-dictionary.md) |     
-
-
+| 12-29-2024 | [1639. Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/description/) | ![Hard][hard_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/12-29-2024-form-a-target-string-given-a-dictionary.md) |
+| 01-01-2025 | [1422. Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-01-2025-max-score-after-splitting-a-string.md) |     
+| 01-02-2025 | [2559. Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/02-01-2025-count-vowel-strings-in-ranges.md) |     
 
 
 
