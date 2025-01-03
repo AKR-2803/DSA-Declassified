@@ -54,6 +54,7 @@ Difficulty tags use:
 | 12-29-2024 | [1639. Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/description/) | ![Hard][hard_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/12-29-2024-form-a-target-string-given-a-dictionary.md) |
 | 01-01-2025 | [1422. Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-01-2025-max-score-after-splitting-a-string.md) |     
 | 01-02-2025 | [2559. Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-02-2025-count-vowel-strings-in-ranges.md) |     
+| 01-03-2025 | [2270. Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-03-2025-no-of-ways-to-split-array.md) |     
 
 
 
