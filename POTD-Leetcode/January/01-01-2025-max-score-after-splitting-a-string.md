@@ -1,4 +1,4 @@
-# POTD 01-01-2024
+# POTD 01-01-2025
 
 ## 1422. Maximum Score After Splitting a String [[Problem](https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/code/MaxScoreAfterSplittingAString.java)]
 

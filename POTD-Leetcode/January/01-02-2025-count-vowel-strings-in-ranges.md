@@ -1,4 +1,4 @@
-# POTD 01-02-2024
+# POTD 01-02-2025
 
 ## 2559. Count Vowel Strings in Ranges [[Problem](https://leetcode.com/problems/count-vowel-strings-in-ranges/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/code/CountVowelStringsInRanges.java)]
 

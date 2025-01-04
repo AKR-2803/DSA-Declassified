@@ -1,4 +1,4 @@
-# POTD 01-03-2024
+# POTD 01-03-2025
 
 ## 2270. Number of Ways to Split Array [[Problem](https://leetcode.com/problems/number-of-ways-to-split-array/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/code/NoOfWaysToSplitArray.java)]
 
