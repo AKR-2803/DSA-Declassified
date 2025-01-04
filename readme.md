@@ -55,6 +55,7 @@ Difficulty tags use:
 | 01-01-2025 | [1422. Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-01-2025-max-score-after-splitting-a-string.md) |     
 | 01-02-2025 | [2559. Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-02-2025-count-vowel-strings-in-ranges.md) |     
 | 01-03-2025 | [2270. Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-03-2025-no-of-ways-to-split-array.md) |     
+| 01-04-2025 | [1930. Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-04-2025-unique-length-3-palindromic-subsequences.md) |     
 
 
 
