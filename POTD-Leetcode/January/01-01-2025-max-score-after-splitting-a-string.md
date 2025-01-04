@@ -2,8 +2,8 @@
 
 ## 1422. Maximum Score After Splitting a String [[Problem](https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/code/MaxScoreAfterSplittingAString.java)]
 
-<!-- ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy)  -->
-![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)  
+![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy) 
+<!-- ![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)   -->
 <!-- ![Hard](https://via.placeholder.com/50x20/FF0000/000000?text=Hard) -->
 
 #### **Tags:** [`String`](https://leetcode.com/problem-list/string/) [`Prefix Sum`](https://leetcode.com/problem-list/prefix-sum/) 
