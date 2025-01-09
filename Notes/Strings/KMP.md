@@ -249,7 +249,7 @@ lps => [0, 0, 0, 0, 1, 2, 3, 1, 0]
      - Otherwise, reset `j = lps[j - 1]` (shift pattern pointer).
 
 - Dry-run an example and observe how the characters are being matched.  
-
+---
 ### Complexity Analysis
 
 - **Time Complexity: _O(n + m)_**  
@@ -260,8 +260,8 @@ lps => [0, 0, 0, 0, 1, 2, 3, 1, 0]
 - **Space Complexity: _O(m)_**  
   - LPS array has size equal to pattern length, i.e. `m`.
 
-
-### [Problem: Search Pattern (KMP-Algorithm)](https://www.geeksforgeeks.org/problems/search-pattern0205/1)
+---
+## [Problem: Search Pattern (KMP-Algorithm)](https://www.geeksforgeeks.org/problems/search-pattern0205/1)
 
 #### Given two strings, one is a text string txt and the other is a pattern string pat. The task is to print the indexes of all the occurrences of the pattern string in the text string. Use 0-based indexing while returning the indices. Note: Return an empty list in case of no occurrences of pattern.
 
@@ -361,9 +361,9 @@ class Solution {
 }
 ```
 
-## Resources
+## More Resources
 
-- Few resources to learn more about KMP Algorithm:
+- Few more resources to learn more about KMP Algorithm:
     - [**KMP Algorithm by Abdul Bari**](https://www.youtube.com/watch?v=V5-7GzOfADQ)
     - [**KMP Algorithm for Pattern Searching GeeksForGeeks**](https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/)
     - [**Leetcode Discuss**](https://leetcode.com/discuss/general-discussion/1003074/the-knuth-morris-pratt-algorithm-in-my-own-words)
