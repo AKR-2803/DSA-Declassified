@@ -62,6 +62,7 @@ Difficulty tags use:
 | 01-08-2025 | [3042. Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/) | ![Easy][easy_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-08-2025-count-prefix-and-suffix-pairs-I.md) |     
 | 01-09-2025 | [2185. Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/) | ![Easy][easy_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-09-2025-counting-words-with-a-given-prefix.md) |     
 | 01-10-2025 | [916. Word Subsets](https://leetcode.com/problems/word-subsets/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-10-2025-word-subsets.md) |     
+| 01-11-2025 | [1400. Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/description) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-11-2025-construct-k-palindrome-strings.md) |     
 
 
 
