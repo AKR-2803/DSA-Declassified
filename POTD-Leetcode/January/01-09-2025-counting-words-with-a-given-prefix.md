@@ -21,6 +21,7 @@ Constraints
 
 - For each word in `words` check if it has `pref` as prefix prefix.
 
+### Complexity Analysis
 - **Time Complexity: _O(n)_**
   - `n`: size of `words` array.
   

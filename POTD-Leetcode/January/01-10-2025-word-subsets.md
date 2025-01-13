@@ -101,6 +101,7 @@
     }
     ```
 
+### Complexity Analysis
 - **Time Complexity: _O(N + M)_**
     - `N`: Total characters across all strings in `words1`
     - `M`: Total characters across all strings in `words2`

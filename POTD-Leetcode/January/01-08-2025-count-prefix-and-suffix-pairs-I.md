@@ -22,6 +22,7 @@ Constraints:
 - For each word, compare it with the remaining words (avoiding duplicate checks).
 - Check if the first word (`str1`) is both a prefix and suffix of the second word (`str2`).
 
+### Complexity Analysis
 - **Time Complexity: _O(n^2*k)_**
   - `n`: Number of words in the array.
   - `k`: Average length of the words (checking `startsWith` and `endsWith` takes O(k)).

@@ -39,6 +39,7 @@
 - Check if one string is a substring of another using Java's `.contains()` method.
 - Add the substring to the result list if not already present.
 
+### Complexity Analysis
 - **Time Complexity: _O(n^2 * m)_**
   - `n`: Number of strings in the array.
   - `m`: Average length of the strings.

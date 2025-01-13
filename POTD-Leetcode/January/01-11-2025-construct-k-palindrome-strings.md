@@ -66,6 +66,7 @@ Consider s = "aabbcccde", try to rearrange to form a palindrome => "abcdcba"
 - Straightforward approach, calculate total characters in string `s` with odd frequencies.
 - Return `k >= oddFrequencies`
 
+### Complexity Analysis
 - **Time Complexity: _O(n)_**
     - `n`: string length.
 - **Space Complexity: _O(1)_**
