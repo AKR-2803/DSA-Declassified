@@ -370,8 +370,8 @@ class Solution {
 
 - Few questions to practice KMP algorithm are:
 - [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/) 
-![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy) 
+![Easy](https://img.shields.io/badge/Easy-green?style=for-the-badge) 
 
-- [686. Repeated String Match](https://leetcode.com/problems/repeated-string-match/description/) ![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium) 
+- [686. Repeated String Match](https://leetcode.com/problems/repeated-string-match/description/) ![Medium](https://img.shields.io/badge/Medium-yellow?style=for-the-badge) 
 
-- [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/description/) ![Hard](https://via.placeholder.com/50x20/FF0000/000000?text=Hard)
+- [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/description/) ![Hard](https://img.shields.io/badge/Hard-red?style=for-the-badge)

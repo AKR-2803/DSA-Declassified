@@ -2,9 +2,9 @@
 
 ## 3042. Count Prefix and Suffix Pairs I [[Problem](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/code/CountPrefixAndSuffixPairsI.java)]
 
-![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy) 
-<!-- ![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)   -->
-<!-- ![Hard](https://via.placeholder.com/50x20/FF0000/000000?text=Hard) -->
+![Easy](https://img.shields.io/badge/Easy-green?style=for-the-badge) 
+<!-- ![Medium](https://img.shields.io/badge/Medium-yellow?style=for-the-badge)   -->
+<!-- ![Hard](https://img.shields.io/badge/Hard-red?style=for-the-badge) -->
 
 #### **Tags:** [`Array`](https://leetcode.com/tag/array/) [`String`](https://leetcode.com/tag/string/) [`Trie`](https://leetcode.com/tag/trie/)  [`Rolling Hash`](https://leetcode.com/tag/rolling-hash/) [`String Matching`](https://leetcode.com/problem-list/string-matching/) [`Hash Function`](https://leetcode.com/tag/hash-function/) 
 

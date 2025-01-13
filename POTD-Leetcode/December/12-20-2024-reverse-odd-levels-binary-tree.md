@@ -2,9 +2,9 @@
 
 ## 2415. Reverse Odd Levels of Binary Tree [[Problem](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/ReverseOddLevelsBinaryTree.java)]
 
- <!-- ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy)  -->
-![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)  
-<!-- ![Hard](https://via.placeholder.com/50x20/FF0000/000000?text=Hard) -->
+ <!-- ![Easy](https://img.shields.io/badge/Easy-green?style=for-the-badge)  -->
+![Medium](https://img.shields.io/badge/Medium-yellow?style=for-the-badge)  
+<!-- ![Hard](https://img.shields.io/badge/Hard-red?style=for-the-badge) -->
 
 #### **Tags:** [`Tree`](https://leetcode.com/problem-list/tree/) [`Depth-First Search`](https://leetcode.com/problem-list/depth-first-search/) [`Breadth-First Search`](https://leetcode.com/problem-list/breadth-first-search/) [`Binary Tree`](https://leetcode.com/problem-list/binary-tree/)
 

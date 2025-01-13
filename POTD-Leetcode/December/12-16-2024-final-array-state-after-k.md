@@ -3,9 +3,9 @@
 
 ## 3264. Final Array State After K Multiplication Operations I [[Problem](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/FinalArrayStateAfterK.java)]
 
- ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy) 
-<!-- ![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)   -->
-<!-- ![Hard](https://via.placeholder.com/50x20/FF0000/000000?text=Hard) -->
+ ![Easy](https://img.shields.io/badge/Easy-green?style=for-the-badge) 
+<!-- ![Medium](https://img.shields.io/badge/Medium-yellow?style=for-the-badge)   -->
+<!-- ![Hard](https://img.shields.io/badge/Hard-red?style=for-the-badge) -->
 
 #### **Tags:** [`Array`](https://leetcode.com/problem-list/array/) [`Math`](https://leetcode.com/problem-list/math/) [`Heap(PriorityQueue)`](https://leetcode.com/problem-list/heap-priority-queue/) [`Simulation`](https://leetcode.com/problem-list/simulation/)
 

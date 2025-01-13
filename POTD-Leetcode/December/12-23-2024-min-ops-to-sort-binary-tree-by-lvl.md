@@ -2,9 +2,9 @@
 
 ## 2471. Minimum No. of Operations to Sort a Binary Tree by Level [[Problem](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/December/code/MinNoOfOpSortBinaryTreeByLvl.java)]
 
-<!-- ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy)  -->
-![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)  
-<!-- ![Hard](https://via.placeholder.com/50x20/FF0000/000000?text=Hard) -->
+<!-- ![Easy](https://img.shields.io/badge/Easy-green?style=for-the-badge)  -->
+![Medium](https://img.shields.io/badge/Medium-yellow?style=for-the-badge)  
+<!-- ![Hard](https://img.shields.io/badge/Hard-red?style=for-the-badge) -->
 
 #### **Tags:** [`Tree`](https://leetcode.com/problem-list/tree/) [`Breadth-First Search`](https://leetcode.com/problem-list/breadth-first-search/) [`Binary Tree`](https://leetcode.com/problem-list/binary-tree/)
 

@@ -2,8 +2,8 @@
 
 ## 1400. Construct K Palindrome Strings [[Problem](https://leetcode.com/problems/construct-k-palindrome-strings/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/code/ConstructKPalindromeStrings.java)]
 
-<!-- ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy)  -->
-![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)  
+<!-- ![Easy](https://img.shields.io/badge/Easy-green?style=for-the-badge)  -->
+![Medium](https://img.shields.io/badge/Medium-yellow?style=for-the-badge)  
 <!-- ![Hard](https://via.placeholder.com/50x20/FF0000/000000?text=Hard) -->
 
 #### **Tags:** [`Hash Table`](https://leetcode.com/tag/hash-table/) [`String`](https://leetcode.com/tag/string/) [`Greedy`](https://leetcode.com/problem-list/greedy/) [`Counting`](https://leetcode.com/problem-list/counting/) 

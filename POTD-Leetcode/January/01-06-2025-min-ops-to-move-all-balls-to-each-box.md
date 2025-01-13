@@ -2,9 +2,9 @@
 
 ## 1769. Min. No. of Operations to Move All Balls to Each Box [[Problem](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/description/)][[Code](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/code/MinOpsToMoveAllBallsToEachBox.java)]
 
-<!-- ![Easy](https://via.placeholder.com/50x20/00FF00/000000?text=Easy)  -->
-![Medium](https://via.placeholder.com/70x20/FFA500/000000?text=Medium)  
-<!-- ![Hard](https://via.placeholder.com/50x20/FF0000/000000?text=Hard) -->
+<!-- ![Easy](https://img.shields.io/badge/Easy-green?style=for-the-badge)  -->
+![Medium](https://img.shields.io/badge/Medium-yellow?style=for-the-badge)  
+<!-- ![Hard](https://img.shields.io/badge/Hard-red?style=for-the-badge) -->
 
 #### **Tags:** [`Array`](https://leetcode.com/tag/array/) [`String`](https://leetcode.com/tag/string/) [`Prefix Sum`](https://leetcode.com/tag/prefix-sum/) 
 
