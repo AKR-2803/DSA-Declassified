@@ -4,7 +4,7 @@
 
 <!-- ![Easy](https://img.shields.io/badge/Easy-green?style=for-the-badge)  -->
 ![Medium](https://img.shields.io/badge/Medium-yellow?style=for-the-badge)  
-<!-- ![Hard](https://via.placeholder.com/50x20/FF0000/000000?text=Hard) -->
+<!-- ![Hard](https://img.shields.io/badge/Hard-red?style=for-the-badge) -->
 
 #### **Tags:** [`Hash Table`](https://leetcode.com/tag/hash-table/) [`String`](https://leetcode.com/tag/string/) [`Greedy`](https://leetcode.com/problem-list/greedy/) [`Counting`](https://leetcode.com/problem-list/counting/) 
 
