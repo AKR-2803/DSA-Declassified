@@ -64,7 +64,7 @@ Difficulty tags use:
 | 01-10-2025 | [916. Word Subsets](https://leetcode.com/problems/word-subsets/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-10-2025-word-subsets.md) |     
 | 01-11-2025 | [1400. Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/description) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-11-2025-construct-k-palindrome-strings.md) |     
 | 01-12-2025 | [2116. Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-12-2025-check-if-parentheses-string-can-be-valid.md) |     
-
+| 01-13-2025 | [3223. Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-13-2025-min-length-of-string-after-operations.md) |     
 
 
 <!-- ----------------------------POTD TABLE END---------------------------- -->
