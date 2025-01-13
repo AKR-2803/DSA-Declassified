@@ -71,9 +71,9 @@ Difficulty tags use:
 
 
 <!-- Difficulty tags link -->
-[easy_tag]: https://via.placeholder.com/50x20/00FF00/000000?text=Easy
-[medium_tag]: https://via.placeholder.com/70x20/FFA500/000000?text=Medium
-[hard_tag]: https://via.placeholder.com/50x20/FF0000/000000?text=Hard
+[easy_tag]: https://img.shields.io/badge/Easy-green?style=for-the-badge&logo=
+[medium_tag]: https://img.shields.io/badge/Medium-darkyellow?style=for-the-badge&logo=
+[hard_tag]: https://img.shields.io/badge/Hard-red?style=for-the-badge&logo=
 
 
 <br><br>As I’m learning alongside you, any feedback and reviews are highly appreciated.
