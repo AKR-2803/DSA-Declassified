@@ -15,7 +15,7 @@
     2. If a character appears **less than 3** times, no operation is needed.
     3. For character appearing more than 3 times, consider this:
 
-    "KEEP REMOVING 2 until frequency becomes less than 3"
+    > "KEEP REMOVING 2 until frequency becomes less than 3"
 
     ```
     ----before------after---
