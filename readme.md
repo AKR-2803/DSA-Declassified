@@ -67,6 +67,7 @@ Difficulty tags use:
 | 01-13-2025 | [3223. Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-13-2025-min-length-of-string-after-operations.md) |     
 | 01-14-2025 | [2657. Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-14-2025-find-prefix-common-array-of-two-arrays.md) |     
 | 01-15-2025 | [2429. Minimize XOR](https://leetcode.com/problems/minimize-xor/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-15-2025-minimize-xor.md) |     
+| 01-16-2025 | [2425. Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-16-2025-bitwise-xor-of-all-pairings.md) |     
 
 
 <!-- ----------------------------POTD TABLE END---------------------------- -->
