@@ -68,6 +68,8 @@ Difficulty tags use:
 | 01-14-2025 | [2657. Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-14-2025-find-prefix-common-array-of-two-arrays.md) |     
 | 01-15-2025 | [2429. Minimize XOR](https://leetcode.com/problems/minimize-xor/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-15-2025-minimize-xor.md) |     
 | 01-16-2025 | [2425. Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-16-2025-bitwise-xor-of-all-pairings.md) |     
+| 01-17-2025 | [2683. Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/description/) | ![Medium][medium_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-17-2025-neighboring-bitwise-xor.md) |     
+| 01-18-2025 | [1368. Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/) | ![Hard][hard_tag] | [Solution](https://github.com/AKR-2803/DSA-Declassified/blob/main/POTD-Leetcode/January/01-18-2025-min-cost-to-make-at-least-1-valid-path.md) |     
 
 
 <!-- ----------------------------POTD TABLE END---------------------------- -->
